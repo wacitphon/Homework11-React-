@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin:  0 ;
+    padding: 0;
+}
+.suminfo{
+    text-align: center;
+}
+
+
+
+.counter {
+    width: 400px;
+    height: 50px;
+    display: flex;
+    text-align: center;
+    align-items: baseline;
+    background: rgb(165, 218, 241);
+    margin: 1rem auto;
+  }
+
+.counter > *{
+    height: 100%;
+    flex: 1;
+    font-size: 32px;
+
+}  
+
+body{
+    background-image: url("pig1.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+}
+.text-center{
+    text-align: center;
+    display: block;
+    margin: auto;
+}
